@@ -1,7 +1,7 @@
-## Banking-Management-System
+# Banking-Management-System
 Design and Development of Banking Management System
 
-#Overview
+##Overview
 ---
 The Banking Management System is a socket-based client–server application designed to simulate the core operations of a bank. It supports role-based access control for customers, employees, managers, and administrators, with secure login mechanisms and concurrency-safe transaction handling.
 
