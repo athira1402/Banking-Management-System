@@ -1,7 +1,7 @@
 # Banking-Management-System
 Design and Development of Banking Management System
 
-##Overview
+## Overview
 ---
 The Banking Management System is a socket-based client–server application designed to simulate the core operations of a bank. It supports role-based access control for customers, employees, managers, and administrators, with secure login mechanisms and concurrency-safe transaction handling.
 
@@ -12,8 +12,8 @@ The system focuses on:
 - Concurrency control using file locking and process synchronization
 - Role-specific features to manage accounts, transactions, and loans
 
-##Features
-###Customer
+## Features
+### Customer
 - Secure Login (single active session)
 - View Account Balance
 - Deposit / Withdraw Money
@@ -24,7 +24,7 @@ The system focuses on:
 - View Transaction History
 - Logout & Exit
   
-###Bank Employee
+### Bank Employee
 - Add New Customer
 - Modify Customer Details
 - Process Loan Applications (Approve/Reject)
@@ -33,14 +33,14 @@ The system focuses on:
 - Change Password
 - Logout & Exit
   
-###Manager
+### Manager
 - Activate/Deactivate Customer Accounts
 - Assign Loan Applications to Employees
 - Review Customer Feedback
 - Change Password
 - Logout & Exit
   
-###Administrator
+### Administrator
 - Add New Bank Employee
 - Modify Customer/Employee Details
 - Manage User Roles
